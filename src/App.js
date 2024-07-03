@@ -8,13 +8,13 @@ import Login from "./Components/log/Login";
 function App() {
   return (
     <Router>
-    <div className="py-2 px-8">
+    <div className="w-full relative">
       <HeadNav/>
       <Routes>
         <Route path="/" element={<Courses/>}/>
-        <Route path="/solution" element={<Solution/>}/>
-        <Route path="pricing" element={<Pricing/>}/>
-        <Route path="/log" element={<Login/>}/>
+        <Route path="/" element={<Solution/>}/>
+        <Route path="/" element={<Pricing/>}/>
+        <Route path="/" element={<Login/>}/>
       </Routes>
     </div>
     </Router>

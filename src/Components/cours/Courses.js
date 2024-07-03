@@ -5,12 +5,16 @@ import pexel from "../../assets/pexel.jpg"
 import { IoMdVideocam } from "react-icons/io";
 import { abonner } from '../constant';
 import { FaPlus } from "react-icons/fa6";
+import Solution from '../solution/Solution';
+import Pricing from '../pricing/Pricing';
+
 
 
 const Courses = () => {
   return (
-    <section className='w-full my-20'>
-    <div className='my-20 w-full lg:flex justify-between lg:space-y-0 space-y-8'>
+    <section className='w-full'>
+    <div className='w-full mt-20 flex flex-col py-4 px-8'>
+    <div className='my-20 w-full lg:flex  justify-between lg:space-y-0 space-y-8'>
       {/* left */}
       <div className='flex flex-col lg:w-[40%] w-full '>
         <h1 className='text-5xl font-mono leading-tight'><span className='text-blue-500'>Grow</span> your skills<br></br> and advance <span className='text-blue-500'>your <br></br>career</span></h1>
@@ -69,6 +73,9 @@ const Courses = () => {
       ))}
       </div>
     </div>
+    </div>
+    <Solution/>
+    <Pricing/>
     </section>
   )
 }

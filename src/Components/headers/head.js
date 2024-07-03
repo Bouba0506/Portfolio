@@ -14,7 +14,7 @@ const HeadNav = () => {
   };
 
   return (
-    <section className="w-full relative">
+    <section className="w-full relative py-4 px-8">
       <div className="flex items-center justify-between">
         {/* left */}
         <div className="flex items-center gap-4">
