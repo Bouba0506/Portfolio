@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Solution from "./Components/solution/Solution";
 import Pricing from "./Components/pricing/Pricing";
 import Login from "./Components/log/Login";
+import { Footer } from "./Components/footer/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Pricing/>}/>
         <Route path="/" element={<Login/>}/>
       </Routes>
+      <Footer/>
     </div>
     </Router>
 

@@ -7,6 +7,7 @@ import { abonner } from '../constant';
 import { FaPlus } from "react-icons/fa6";
 import Solution from '../solution/Solution';
 import Pricing from '../pricing/Pricing';
+import Login from '../log/Login';
 
 
 
@@ -76,6 +77,7 @@ const Courses = () => {
     </div>
     <Solution/>
     <Pricing/>
+    <Login/>
     </section>
   )
 }

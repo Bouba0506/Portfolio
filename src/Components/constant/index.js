@@ -13,7 +13,6 @@ import ai4 from "../../assets/ai4.jpg";
 import ai5 from "../../assets/ai5.jpg";
 import ai6 from "../../assets/ai6.png";
 import ai7 from "../../assets/ai7.jpg";
-import ai8 from "../../assets/ai8.jpg";
 
 export const navbar = [
   { head: "Course", path: "/" },
@@ -46,7 +45,7 @@ export const card = [
     des: "Graphic Design For Beginner",
     im: img1,
     Ai: ai1,
-    name:"Bah Boubacar"
+    name: "Bah Boubacar",
   },
   {
     star: "4.4",
@@ -54,7 +53,7 @@ export const card = [
     des: "Web Development For Programing informatique",
     im: img2,
     Ai: ai2,
-     name:"Arelin Showart"
+    name: "Arelin Showart",
   },
   {
     star: "4.3",
@@ -62,7 +61,7 @@ export const card = [
     des: "Data Analytics For Programing informatique",
     im: img3,
     Ai: ai3,
-     name:"Theo hernandez"
+    name: "Theo hernandez",
   },
   {
     star: "4",
@@ -70,7 +69,7 @@ export const card = [
     des: "Creative Writing For Programing informatique",
     im: img4,
     Ai: ai4,
-     name:"Ali cissé"
+    name: "Ali cissé",
   },
   {
     star: "4.5",
@@ -78,7 +77,7 @@ export const card = [
     des: "Personal Finance For Business",
     im: img5,
     Ai: ai5,
-     name:"Bachir Diallo"
+    name: "Bachir Diallo",
   },
   {
     star: "5.1",
@@ -86,7 +85,7 @@ export const card = [
     des: "Animation For Programing informatique",
     im: img6,
     Ai: ai6,
-     name:"Bah Binta"
+    name: "Bah Binta",
   },
   {
     star: "5",
@@ -94,7 +93,7 @@ export const card = [
     des: "Video Editing For Business",
     im: img7,
     Ai: ai7,
-     name:"Bah Djibril"
+    name: "Bah Djibril",
   },
   {
     star: "4.7",
@@ -102,16 +101,35 @@ export const card = [
     des: "Digital Marketing For Business",
     im: img8,
     Ai: ai2,
-     name:"Bah Ismaeil"
+    name: "Bah Ismaeil",
   },
 ];
 
-export const experience=[
-  {nombre:"20K", titre:"Subscribes Students", im3:img3,im4:img4,im6:img6}
-]
-export const carpricing=[
-  {titre:"Lifetime access to the courses", des:"Adopte ces habitudes pendant 21 jours et observe comment elles transforment ta vie. Commence dès aujourd'hui et deviens une meilleure version de toi-même !"},
-  {titre:"Experience tuter in the university", des:"Adopte ces habitudes pendant 21 jours et observe comment elles transforment ta vie. Commence dès aujourd'hui et deviens une meilleure version de toi-même !"},
-  {titre:"Their opinion about their experience", des:"Adopte ces habitudes pendant 21 jours et observe comment elles transforment ta vie. Commence dès aujourd'hui et deviens une meilleure version de toi-même !"},
-
-]
+export const experience = [
+  {
+    nombre: "20K",
+    titre: "Subscribes Students",
+    im3: img3,
+    im4: img4,
+    im6: img6,
+  },
+];
+export const carpricing = [
+  {
+    titre: "Lifetime access to the courses",
+    des: "Adopte ces habitudes pendant 21 jours et observe comment elles transforment ta vie. Commence dès aujourd'hui et deviens une meilleure version de toi-même !",
+  },
+  {
+    titre: "Experience tuter in the university",
+    des: "Adopte ces habitudes pendant 21 jours et observe comment elles transforment ta vie. Commence dès aujourd'hui et deviens une meilleure version de toi-même !",
+  },
+  {
+    titre: "Their opinion about their experience",
+    des: "Adopte ces habitudes pendant 21 jours et observe comment elles transforment ta vie. Commence dès aujourd'hui et deviens une meilleure version de toi-même !",
+  },
+];
+ export const footer=[
+  {titre:"Links",list:["Course","Solution","Pricing","Log"]},
+  {titre:"Services",list:["Web Design","UI/UX Design","Responsive Design","E-commerce"]},
+  {titre:"LEGEL",list:["Privacy","Policy","Terms","Service"]},
+ ]
