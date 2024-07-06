@@ -1,9 +1,10 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react'
 import { card } from '../constant'
 import { CiStar } from "react-icons/ci";
 const Cards = () => {
   return (
-    <div className='my-3  grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 gap-4'>
+    <div className='my-3 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 gap-4 justify-center'>
         {card.map((item,index)=>(
             <div key={index} className='flex flex-col items-start w-52 h-72 rounded-xl p-2 bg-[#272525ba] '>
                 <div className='relative w-full rounded-xl '><img src={item.Ai} alt='ai' width={400} height={400} className='rounded-xl'/> </div>

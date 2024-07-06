@@ -3,7 +3,7 @@ import man from "../../assets/man.png"
 import { FaArrowRight,FaArrowLeft } from "react-icons/fa";
 const Login = () => {
   return (
-    <div className="mt-16 w-full relative lg:flex justify-between gap-4 px-8">
+    <div className="my-16 w-full relative md:flex justify-between gap-4 px-8">
       <div className="flex flex-col items-start">
         <h1 className="text-2xl font-semibold">
           Their opinion about their experience with us
@@ -15,7 +15,7 @@ const Login = () => {
           et redirige ton attention vers des pensées positives.
         </p>
       </div>
-      <div className=" bg-blue-500 rounded-lg p-4">
+      <div className=" bg-blue-500 rounded-lg p-4 md:mt-0 mt-4">
       <p className="text-xl text-white">
           Accepte-toi tel que tu es :Reconnais et accepte tes
           imperfections.Personne n'est parfait. Pratique la pleine conscience

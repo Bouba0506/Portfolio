@@ -10,7 +10,7 @@ const Solution = () => {
   return (
     <div id="solution" className='w-full py-4 bg-[#000000d3] px-8'>
         <h1 className='text-center text-4xl text-white font-medium'>Explore Inspiring Online Courses</h1>
-        <div className='mt-4 w-full flex gap-4 flex-wrap'>
+        <div className='mt-4 w-full flex gap-4 flex-wrap md:justify-start justify-center'>
           {cour.map((item,index)=>(
             <div key={index}
             className={`w-40 p-2 rounded-full flex justify-center text-white cursor-pointer ${
